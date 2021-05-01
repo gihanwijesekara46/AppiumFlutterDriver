@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BAAndroid]">
+  <test thread-count="5" name="BAAndroid TenantFeedback(failed)">
+    <classes>
+      <class name="Tests.Tenant.TenantFeedbackTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="TenantFeedbackTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- Tests.Tenant.TenantFeedbackTest -->
+    </classes>
+  </test> <!-- BAAndroid TenantFeedback(failed) -->
+</suite> <!-- Failed suite [BAAndroid] -->

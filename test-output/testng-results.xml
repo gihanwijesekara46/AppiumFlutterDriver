@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BAAndroid" duration-ms="62979" started-at="2021-04-20T07:10:57Z" finished-at="2021-04-20T07:12:00Z">
+    <groups>
+    </groups>
+    <test name="BAAndroid AppiumTestDemo" duration-ms="62979" started-at="2021-04-20T07:10:57Z" finished-at="2021-04-20T07:12:00Z">
+      <class name="AppiumTestDemo">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:AppiumTestDemo@1a407d53]" name="startReport" is-config="true" duration-ms="264" started-at="2021-04-20T07:10:57Z" finished-at="2021-04-20T07:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:AppiumTestDemo@1a407d53]" name="setup" is-config="true" duration-ms="52495" started-at="2021-04-20T07:10:57Z" finished-at="2021-04-20T07:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:AppiumTestDemo@1a407d53]" name="test1" duration-ms="9307" started-at="2021-04-20T07:11:50Z" finished-at="2021-04-20T07:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:AppiumTestDemo@1a407d53]" name="getResult" is-config="true" duration-ms="2" started-at="2021-04-20T07:11:59Z" finished-at="2021-04-20T07:11:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=AppiumTestDemo.test1()[pri:0, instance:AppiumTestDemo@1a407d53] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:AppiumTestDemo@1a407d53]" name="tearDown" is-config="true" duration-ms="557" started-at="2021-04-20T07:11:59Z" finished-at="2021-04-20T07:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:AppiumTestDemo@1a407d53]" name="endReport" is-config="true" duration-ms="333" started-at="2021-04-20T07:11:59Z" finished-at="2021-04-20T07:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- AppiumTestDemo -->
+    </test> <!-- BAAndroid AppiumTestDemo -->
+  </suite> <!-- BAAndroid -->
+</testng-results>
